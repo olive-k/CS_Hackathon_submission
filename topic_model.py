@@ -20,7 +20,7 @@ from pprint import pprint
 import pyLDAvis
 import pyLDAvis.gensim  # don't skip this
 import matplotlib.pyplot as plt
-%matplotlib inline
+#%matplotlib inline
 nlp = spacy.load('en')
 
 
