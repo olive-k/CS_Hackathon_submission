@@ -1,6 +1,8 @@
 '''
 Please Note: This Aspect Based Sentiment Analysis Module is still in it's late development stage! 
 In order to run our completed ASBA model, please run the ABSA.py module
+However, if you would like to view the preliminary results of this model, you may proceed to run 
+this file :)
 '''
 
 
