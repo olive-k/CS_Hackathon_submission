@@ -1,5 +1,5 @@
 # GROUP 12 TECHNICAL ANALYSIS CODE
-# ELEVEN : CENTRALE - ESSEC HACKATHON
+## ELEVEN : CENTRALE - ESSEC HACKATHON
 
 In this project, we aim to generate business insights from the vast textual data resource that is 
 the web. In order to successfully do so, we tap into our Web-scraping and Natural Language Processing
@@ -33,7 +33,7 @@ In order to successfully implement our pipeline, you will need to do the followi
 And there you go! You've successfully extracted and gathered meaningful information from different textual 
 web data sources! 
 
-# IMPORTANT!
+## IMPORTANT!
 Don't forget to visualize the results of our 2 main models:
     - Topic Modelling: open the topic_modelling_visualizations.ipynb jupyter notebook 
     - Sentiment Analysis: open 'TEST_data_with_Topics_Sentiments.tsv' stored in the 'data/results/' folder. 
