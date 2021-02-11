@@ -100,8 +100,8 @@ if __name__ == '__main__':
     # get the names of all the airlines
     all_airlines = []
     for name in list(names):
-    name = re.search('s/(.*)"', str(name)).group(1)
-    all_airlines.append(name)
+        name = re.search('s/(.*)"', str(name)).group(1)
+        all_airlines.append(name)
     all_airlines = all_airlines[:519] # there are 519 airlines in total
 
     # get the dataset of all the airlines
