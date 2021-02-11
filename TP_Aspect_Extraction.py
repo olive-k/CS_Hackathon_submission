@@ -1,4 +1,3 @@
-!pip install sentence_transformers
 import pandas as pd
 import numpy as np
 from sentence_transformers import CrossEncoder
@@ -23,7 +22,6 @@ def split_text_to_sentences(raw_text):
   return sentences
 
 # Topic modelling
-
 aspects= {
     "food": "food meal dinner drink dish snacks",
     "staff": "crew hostess onboarding service staff",
@@ -50,7 +48,7 @@ def score_topic_sentence(sentence, aspect="food"):
 
 
 if __name__ == "__main__":
-    path = "/content/drive/MyDrive/Hackathon_eleven/datasets/"
+    path = "data/evaluation/"
     file_name = "text_data.txt"
     df = read_dirty_test_file(path + file_name)
     
