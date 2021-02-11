@@ -1,1 +1,5 @@
-# CS_Hackathon_submission
+# GROUP 12 TECHNICAL ANALYSIS CODE
+# ELEVEN : CENTRALE - ESSEC HACKATHON
+
+In this project, we aim to 
+
