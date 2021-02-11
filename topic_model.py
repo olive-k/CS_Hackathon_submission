@@ -21,7 +21,7 @@ import pyLDAvis
 import pyLDAvis.gensim  # don't skip this
 import matplotlib.pyplot as plt
 #%matplotlib inline
-nlp = spacy.load('en')
+nlp = spacy.load('en_core_web_sm')
 
 
 def topic_model():
