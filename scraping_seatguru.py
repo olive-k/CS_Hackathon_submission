@@ -109,13 +109,13 @@ def scrape():
                 reviews_df_date.append(0)
                 reviews_df_class.append(0)
 
-    #airlines_dataframe.to_csv("airlines.csv")
+    airlines_dataframe.to_csv("data/seatguru/airlines.csv")
 
     flights_dataframe['Name'] = flights_df_name
     flights_dataframe['Airline'] = flights_df_airline
     flights_dataframe['Seats'] = flights_df_seats
     flights_dataframe['ReviewIDs'] = flights_df_reviewIDs
-    #flights_dataframe.to_csv('flights.csv')
+    flights_dataframe.to_csv('data/seatguru/flights.csv')
 
     reviews_dataframe['ID'] = reviews_df_id
     reviews_dataframe['Comment'] = reviews_df_comment
@@ -124,7 +124,7 @@ def scrape():
 
     reviews_dataframe = reviews_dataframe[reviews_dataframe.ID != 0]
 
-    #reviews_dataframe.to_csv('reviews.csv')
+    reviews_dataframe.to_csv('data/seatguru/reviews.csv')
 
 if __name__ == '__main__':
     scrape()
