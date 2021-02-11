@@ -1,3 +1,9 @@
+'''
+Please Note: We began scraping Trip Advisor but then decided that since we already had enough reviews 
+from Skytrax and Seatguru, there was no need. Therefore, this code is only here for information 
+purposes - in case someone would like to scrape Trip Advisor, this could be a good place to start :)
+'''
+
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
