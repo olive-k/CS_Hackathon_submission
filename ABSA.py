@@ -1,11 +1,10 @@
-!pip install aspect_based_sentiment_analysis
+# required imports
 import pandas as pd
 import numpy as np
 import aspect_based_sentiment_analysis as absa
 
 
 # ABSA
-
 def extract_sentiment(bundled):
   text, aspect = bundled
   pred = nlp(text, aspects=[aspect])
@@ -25,7 +24,7 @@ aspects= {
 
 
 if __name__ == "__main__":
-    path = "/content/drive/MyDrive/Hackathon_eleven/datasets/"
+    path = "data/evaluation/"
     file_name = "TEST_data_with_Topics.csv"
     df = pd.read_csv( path + file_name)
 
