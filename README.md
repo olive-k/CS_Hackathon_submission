@@ -33,9 +33,10 @@ In order to successfully implement our pipeline, you will need to do the followi
 And there you go! You've successfully extracted and gathered meaningful information from different textual 
 web data sources! 
 
+# IMPORTANT!
 Don't forget to visualize the results of our 2 main models:
     - Topic Modelling: open the topic_modelling_visualizations.ipynb jupyter notebook 
-    - Sentiment Analysis: Run 'python ABSA.py' on the TEST dataset (Please store the file with the pathname 
-    as "data/evaluation/text_data.txt" )!
+    - Sentiment Analysis: open 'TEST_data_with_Topics_Sentiments.tsv' stored in the 'data/results/' folder. 
+    Please note that for the sentiment values outputted, the mapping is as: 0 is neutral, 1 is negative, 2 is positive
 
 Thank you for reading!
